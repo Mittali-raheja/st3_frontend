@@ -1,0 +1,39 @@
+.butts{
+    width: fit-content;
+}
+
+.btnblack{
+    display: flex;
+    padding: 10px;
+    width: max-content;
+    border: 1px solid #111;
+    z-index: 100;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.btnwhite{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+
+.btnblack > h4{
+    padding-right: 10px;
+}
+
+.btnwhite > h4{
+    padding-right: 10px;
+}
+
+.butts:hover{
+    transform: scale(0.95);
+    transition: ease-in;
+    transition-duration: 0.15s;
+}

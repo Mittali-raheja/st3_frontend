@@ -1,0 +1,55 @@
+
+.card__row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px !important;
+}
+
+.card__col{
+    width: 65% !important;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    border: 1px solid #333;
+    height: 250px;
+    width: min-content;
+}
+
+.card{
+    margin: 50px 15px;
+}
+
+.card__row:hover{
+    border: 1px solid #333;
+    margin: 49px 14px;
+}
+
+.card__col > .card__text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__col > .card__text > h5{
+    font-size: large;
+    font-weight: 500;
+}
+
+.card__col > .card__text > p{
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.card__col > .card__text > .btn{
+    align-self: flex-end;
+}
+
+.card > img{
+    object-fit: contain;
+}
+
+.card__text{
+    padding: 10px;
+}
+

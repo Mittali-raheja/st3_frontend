@@ -1,0 +1,21 @@
+.popular > h1{
+    margin-top: 10%;
+    margin-bottom: 40px;
+}
+
+.popular{
+    margin: 100px 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular__btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popular__btn{
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+.arrivals{
+    max-width: 1500px;
+    margin: 60px auto ;
+}
+
+.arrivals > span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.arrivals > span > p{
+    font-weight: 500;
+    border-bottom: 1px solid #111;
+    margin: 0 10px;
+}
+
+.arrivals > span > h1{
+    margin: 0 10px;
+}
+
+.arrival__content{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}

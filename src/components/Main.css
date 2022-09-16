@@ -1,0 +1,12 @@
+.main__imgContainer > img{
+    width: 100%;
+    margin-bottom: -15%;
+    position: relative;
+    z-index: -1;
+}
+
+.main__buttons{
+    margin-left: 10%;
+    z-index: 100;
+}
+
